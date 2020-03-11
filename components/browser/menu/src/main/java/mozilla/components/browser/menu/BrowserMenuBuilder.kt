@@ -15,6 +15,7 @@ import android.content.Context
  *  the top of the menu is always visible.
  */
 open class BrowserMenuBuilder(
+
     val items: List<BrowserMenuItem>,
     val extras: Map<String, Any> = emptyMap(),
     val endOfMenuAlwaysVisible: Boolean = false
